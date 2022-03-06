@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../../images/logo.png";
+import logo from "../../images/eth.png";
 
 const Footer = () => (
   <div className="w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer">
@@ -9,9 +9,9 @@ const Footer = () => (
         <img src={logo} alt="logo" className="w-32" />
       </div>
       <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Market</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Exchange</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Tutorials</p>
+        <p className="text-white text-base text-center mx-2 cursor-pointer">Markets</p>
+        <p className="text-white text-base text-center mx-2 cursor-pointer">DeFi</p>
+        <p className="text-white text-base text-center mx-2 cursor-pointer">NFTs</p>
         <p className="text-white text-base text-center mx-2 cursor-pointer">Wallets</p>
       </div>
     </div>

@@ -22,9 +22,9 @@ const Services = () => (
     <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">
       <div className="flex-1 flex flex-col justify-start items-start">
         <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient ">
-          How can you improve your assests?
+          control your own keys
           <br />
-          Send your assests here
+          Be your own piggy bank
         </h1>
         <p className="text-left my-2 text-white font-light md:w-9/12 w-11/12 text-base">
           The best choice for buying and selling your crypto assets
@@ -36,7 +36,7 @@ const Services = () => (
           color="bg-[#2952E3]"
           title="Security gurantee"
           icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          subtitle="Security is guranteed. Control your own keys to your own money with fast transactions "
         />
         <ServiceCard
           color="bg-[#8945F8]"
