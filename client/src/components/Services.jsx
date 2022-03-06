@@ -1,7 +1,7 @@
 import React from "react";
-import { BsShieldFillCheck } from "react-icons/bs";
-import { BiSearchAlt } from "react-icons/bi";
-import { RiHeart2Fill } from "react-icons/ri";
+import { GoGlobe } from "react-icons/go";
+import { BsPiggyBankFill } from "react-icons/bs";
+import { GiTrade } from "react-icons/gi";
 
 const ServiceCard = ({ color, title, icon, subtitle }) => (
   <div className="flex flex-row justify-start items-start white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl">
@@ -34,21 +34,21 @@ const Services = () => (
       <div className="flex-1 flex flex-col justify-start items-center">
         <ServiceCard
           color="bg-[#2952E3]"
-          title="Security gurantee"
-          icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
+          title="Crypto Currency"
+          icon={<GoGlobe fontSize={21} className="text-white" />}
           subtitle="Security is guranteed. Control your own keys to your own money with fast transactions "
         />
         <ServiceCard
           color="bg-[#8945F8]"
-          title="Best exchange rates"
-          icon={<BiSearchAlt fontSize={21} className="text-white" />}
-          subtitle="Security is MUST. We always maintain privacy and maintain the quality of our services and brand"
+          title="Defi Bank"
+          icon={<BsPiggyBankFill fontSize={21} className="text-white" />}
+          subtitle="Security is must for the future. We always maintain privacy and maintain the quality of our services and brand"
         />
         <ServiceCard
           color="bg-[#F84550]"
-          title="Fastest transactions"
-          icon={<RiHeart2Fill fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain another level compared to the rest of the competition"
+          title="NFT"
+          icon={<GiTrade fontSize={21} className="text-white" />}
+          subtitle="When buying selling or trading NFTs, we always maintain another level compared to the rest of the competition"
         />
       </div>
     </div>
